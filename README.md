@@ -41,6 +41,3 @@ Please find the source code of our experimental setup under .......
 
 ## Cite our paper
 The citation is currently unavailable. Will be updated once the paper will be published at ACM digital library. 
-
-Temporary link:
-https://esecfse2021.hotcrp.com/doc/esecfse2021-paper270.pdf
