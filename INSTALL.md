@@ -5,7 +5,7 @@ We provide a simple and convenient way to execute the workbooks with extension .
 ## Prerequisites
 
 The following software has to be installed in your local machine (work for any operating system including Windows, Mac, or Linux)
-  - Latest verision of the statistical package ***R***. If R is not available in your loacl machine, download and follow the provided instructions in https://cran.r-project.org/bin/windows/base/ to install R. 
+  - Latest verision of the statistical package ***R***. If R is not available in your loacl machine, download R from https://cran.r-project.org/bin/windows/base/ and follow the provided instructions in [this link](https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu) based on your operating system to install R. 
   - The individual edition of ***Anaconda Navigator***. The installation package and intructions can be found at https://docs.anaconda.com/anaconda/navigator/
 
 ## Clone and Launch JupyterLab
