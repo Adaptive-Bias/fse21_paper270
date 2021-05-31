@@ -24,7 +24,7 @@ Within *'src'* directory, there are two separate R workbooks that allow to repro
 Generated plots/graphs are written to the directory named *'outputs'*.
 
 ## Reproduce results 
-The public access allows anyone to edit the configuration and observe the results in both simulation and empirical evaluations. Such changes can be imposed and generate the same set of outputs (i.e. graphs) after cloning the workbooks to a local machine. A machine with regular specifications would be sufficient for the purpose. We outline a convenient and straightforward way to locally run the scripts using Anaconda Navigator.
+The public access allows anyone to edit the configuration and observe the results in both simulation and empirical evaluations. Such changes can be imposed and generate the same set of outputs (i.e. graphs) after cloning the workbooks to a local machine. A machine with regular specifications would be sufficient for the purpose. We outline a convenient and straightforward way to locally run the scripts using Anaconda Navigator. 
 
 * Install Anaconda Navigator community version using the instructions that are given [here](https://docs.anaconda.com/anaconda/navigator/). You need to have the latest version of R installed in your computer. R can be downloaded from [Cran](https://cran.r-project.org/bin/windows/base/) site.
 * Open Anaconda Navigator and create a new R environment through ‘Environments’ tab.
@@ -32,12 +32,12 @@ The public access allows anyone to edit the configuration and observe the result
 * Launch JupyterLab and select the cloned repository from the local file system. 
 * Now you can edit and run our workbooks.
 
+Refer **INSTALL.md** and **REQUIREMENTS.md** for more details on running the codes locally.
+
 Please note that you can use any other approach to edit and run the same Jupyter workbooks in your local computer. 
 
 ## Generating data for executing 'Empirical.ipynb'
 We propose an experimental setup to empirically evaluate the estimator performance. we ran greybox fuzzing campaigns using LibFuzzer for longer time periods (close to one week) while establishing ground truth for discovery probability. The experiment generates all the required data for computing classical and novel estimators. The details on how to setup the experimental framework is extensively elaborated in the paper. We input the resulting csv data file to estimate and evaluate estimator performance in our ‘Empirical’ workbook. The csv data file for the conducted experiments resides in ‘data’ directory of this repository.
-
-Please find the source code of our experimental setup under .......
 
 ## Cite our paper
 The citation is currently unavailable. Will be updated once the paper will be published at ACM digital library. 
