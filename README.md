@@ -1,8 +1,11 @@
-# fse21_paper270
-Artifacts for paper #270 - Estimating Residual Risk in Greybox Fuzzing (Accepted at ESEC/FSE 2021)
+# Estimating Residual Risk in Greybox Fuzzing
+For Artifact Evaluation at ESEC/FSE 2021
 
-## Authors
-Marcel Böhme (Monash University), Danushka Liyanage (Monash University), Valentin Wüstholz (ConsenSys)
+<a href="https://github.com/Adaptive-Bias/fse21_paper270/raw/main/esecfse2021-paper270.pdf"><img src="https://github.com/Adaptive-Bias/fse21_paper270/raw/main/esecfse2021-paper270.png" align="right" width="250"></a>
+
+* [Marcel Böhme](https://mboehme.github.io/) (Monash University)
+* Danushka Liyanage (Monash University)
+* [Valentin Wüstholz](http://www.wuestholz.com/) (ConsenSys)
 
 ## Overview
 No matter how long, there is always a non-zero probability to discover a software bug if we continue the fuzzing campaign a bit longer. Engineers need to know whether the residual risk is below the allowable threshold before deciding to stop the ongoing campaign. In fuzzing, residual risk is the probability to discover a bug from the next generated test input. In our probabilistic analysis, we suggest to use discovery probability; the probability to discover a new program behaviour as the upper bound for residual risk for fuzzing campaigns.
@@ -40,4 +43,13 @@ Please note that you can use any other approach to edit and run the same Jupyter
 We propose an experimental setup to empirically evaluate the estimator performance. we ran greybox fuzzing campaigns using LibFuzzer for longer time periods (close to one week) while establishing ground truth for discovery probability. The experiment generates all the required data for computing classical and novel estimators. The details on how to setup the experimental framework is extensively elaborated in the paper. We input the resulting csv data file to estimate and evaluate estimator performance in our ‘Empirical’ workbook. The csv data file for the conducted experiments resides in ‘data’ directory of this repository.
 
 ## Cite our paper
-The citation is currently unavailable. Will be updated once the paper will be published at ACM digital library. 
+```
+@inproceedings{residualrisk,
+ author = {B{\"o}hme, Marcel and Liyanage, Danushka and W{\"u}stholz, Valentin}, 
+ title = {Estimating Residual Risk in Greybox Fuzzing},
+ booktitle = {Proceedings of the 15th Joint meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering},
+ series = {ESEC/FSE},
+ year = {2021},
+ numpages = {12},
+}
+```
