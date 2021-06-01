@@ -1,7 +1,7 @@
 # Estimating Residual Risk in Greybox Fuzzing
 For Artifact Evaluation at ESEC/FSE 2021
 
-<a href="https://github.com/Adaptive-Bias/fse21_paper270/raw/main/esecfse2021-paper270.pdf"><img src="https://github.com/Adaptive-Bias/fse21_paper270/raw/main/esecfse2021-paper270.png" align="right" width="250"></a>
+<a href="https://github.com/Adaptive-Bias/fse21_paper270/raw/main/esecfse2021-paper270.pdf"><img src="https://github.com/Adaptive-Bias/fse21_paper270/raw/main/esecfse2021-paper270.png" align="right" width="280"></a>
 
 ## Submission
 * [Marcel Böhme](https://mboehme.github.io/) (Monash University)
