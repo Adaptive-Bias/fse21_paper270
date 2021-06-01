@@ -3,11 +3,6 @@ For Artifact Evaluation at ESEC/FSE 2021
 
 <a href="https://github.com/Adaptive-Bias/fse21_paper270/raw/main/esecfse2021-paper270.pdf"><img src="https://github.com/Adaptive-Bias/fse21_paper270/raw/main/esecfse2021-paper270.png" align="right" width="250"></a>
 
-## Overview
-No matter how long, there is always a non-zero probability to discover a software bug if we continue the fuzzing campaign a bit longer. Engineers need to know whether the residual risk is below the allowable threshold before deciding to stop the ongoing campaign. In fuzzing, residual risk is the probability to discover a bug from the next generated test input. In our probabilistic analysis, we suggest to use discovery probability; the probability to discover a new program behaviour as the upper bound for residual risk for fuzzing campaigns.
-
-We show that the existing estimators of discovery probability are systematically and substantially under-estimate the true probability due to adaptive bias in greybox fuzzing. In this paper, we propose two classes of novel statistical estimators of discovery probability that account for adaptive bias in greybox fuzzing campaigns. 
-
 ## Submission
 * [Marcel Böhme](https://mboehme.github.io/) (Monash University)
 * Danushka Liyanage (Monash University)
@@ -22,6 +17,11 @@ We show that the existing estimators of discovery probability are systematically
  numpages = {12},
 }
 ```
+
+## Overview
+No matter how long, there is always a non-zero probability to discover a software bug if we continue the fuzzing campaign a bit longer. Engineers need to know whether the residual risk is below the allowable threshold before deciding to stop the ongoing campaign. In fuzzing, residual risk is the probability to discover a bug from the next generated test input. In our probabilistic analysis, we suggest to use discovery probability; the probability to discover a new program behaviour as the upper bound for residual risk for fuzzing campaigns.
+
+We show that the existing estimators of discovery probability are systematically and substantially under-estimate the true probability due to adaptive bias in greybox fuzzing. In this paper, we propose two classes of novel statistical estimators of discovery probability that account for adaptive bias in greybox fuzzing campaigns. 
 
 ## Generating results
 We designed several simulation studies to support claims in the developed probabilistic analysis. The performance of the classical estimators (i.e. Laplace and Goog-Turing) and proposed novel estimators (i.e. Mean-local and a-Reset) of discovery probability were experimentally evaluated based on well-known statistical performance measures namely ‘bias’ and ‘variance’. For each simulation and experiment, we ensure maximum generalizability of the results by considering average behaviour of 20+ runs for each study.  
