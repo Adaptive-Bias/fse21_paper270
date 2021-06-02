@@ -16,7 +16,7 @@ Executing the Jupyter workbooks in this repositoy does not require any specializ
 
 ### R Package Versions
 
-The results appearing in the paper have been generated using the below R libraries. The recommended library versions are stated respectively.
+The results appearing in the paper have been generated using the below R libraries. The recommended library versions are stated below:
 
 ```
 ggplot2_3.1.1
