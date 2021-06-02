@@ -47,4 +47,4 @@ We need to run the Jupyter notebooks. In the following, we specify the installat
 * Edit and run our workbooks in the folder in the folder `fse21_paper270/src`.
 * Find the data for `Empirical.ipynb` in `fse21_paper270/src/fuzzingdata.csv`.
 
-Refer **INSTALL.md** and **REQUIREMENTS.md** for more details on running the codes locally.
+Please refer to **INSTALL.md** and **REQUIREMENTS.md** for more details on how to run workbooks locally.
