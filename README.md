@@ -28,6 +28,8 @@ We designed and empirical and a simulation study to validate claims in our paper
 
 Through this repository, we make all the results that are presented in above paper openly accessible and reproducible. We would like researchers and practitioners to adopt the proposed estimators for deciding when to stop an ongoing greybox fuzzing campaign. 
 
+Given the time constraints of the artifact evaluation process, we do not provide instructions for reproducing the experimental results for LibFuzzer; it would take TODO CPU months to reproduce all results. Instead, we provide the raw data (`fse21_paper270/src/fuzzingdata.csv`) and an R workbook (`Empirical.ipynb`) for processing the data and generating plots and graphs. We provide a patch for LibFuzzer at TODO.
+
 ## Structure of this Repository
 * Within *'src'* directory, you can find two separate R workbooks that allow to reproduce all the results presented in the paper. 
   * ***Simulation.ipynb -*** This workbook consists of the simulation framework along with respective results obtained through greybox fuzzing simulations. 
