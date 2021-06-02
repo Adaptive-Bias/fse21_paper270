@@ -35,4 +35,4 @@ Now, you can edit and run the workbooks in this repository. Instruction on using
 
 ## Other Methods
 
-We need to stress that this is not the only way to edit and run the Jupyter workbooks. Yet, we found this method much convenient to setup and execute. You are free to use any other method that serves the same purpose.
+We need to stress that this is not the only way to edit and run the Jupyter workbooks. Yet, we found this method very convenient to setup and execute. You are free to use any other method that serves the same purpose.
