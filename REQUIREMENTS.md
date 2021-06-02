@@ -2,7 +2,7 @@
 
 ### Required Technical Skills
 
-Executing the Jupyter workbooks in this repositoy does not require any specialized technical skills other than some expertise and familiarity in statistical language R. 
+Executing the Jupyter workbooks in this repositoy does not require any specialized technical skills other than some expertise and familiarity in the statistical language R. 
 
 ### Operating System and Machine Specifications
 
