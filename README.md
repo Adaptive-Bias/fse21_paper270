@@ -43,7 +43,7 @@ We need to run the Jupyter notebooks. In the following, we specify the installat
 * Install [R](https://cran.r-project.org/bin/windows/base/) and [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) community version.
 * Open Anaconda Navigator and create a new R environment through ‘Environments’ tab.
 * Return back to ‘Home’ and select the created R environment from the drop-down menu under ‘Applications on’.
-* Launch JupyterLab and select the cloned repository. 
+* Launch Jupyter and navigate to the the cloned repository. 
 * Edit and run our workbooks in the folder in the folder `fse21_paper270/src`.
 * Find the data for `Empirical.ipynb` in `fse21_paper270/src/fuzzingdata.csv`.
 
