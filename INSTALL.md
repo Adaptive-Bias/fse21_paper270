@@ -30,6 +30,13 @@ JupyterLab opens on the browser.
 The local file system is appearing in the left side bar in opened JupyterLab window. (If not, **view -> Show Left Sidebar** from menubar)
 
   - Reach to the cloned repository from the file system and open the required .ipynb workbook (Simulation.ipynb or Empirical.ipynb) on JupyterLab.
+  - Before, running the workbooks, make sure you have installed all the required R libraries that are mentioned in ***REQUIREMENTS.md***. You may use the following line of code to install a required package.
+    ```
+    install.packages(<package_name>,dependencies=TRUE)
+    example: if you need to install the package, "ggplot2"
+    install.packages("ggplot2",dependencies=TRUE)
+    
+    ```
 
 Now, you can edit and run the workbooks in this repository. Instruction on using JupyterLab can be found [here](https://jupyter.org/).
 
