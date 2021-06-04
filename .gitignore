@@ -45,4 +45,4 @@ docs/
 po/*~
 
 # temporary files
-*.ipynb_checkpoints/
+.ipynb_checkpoints/
