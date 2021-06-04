@@ -7,7 +7,7 @@ For Artifact Evaluation at ESEC/FSE 2021
 * [Marcel Böhme](https://mboehme.github.io/) (Monash University)
 * Danushka Liyanage (Monash University), and
 * [Valentin Wüstholz](http://www.wuestholz.com/) (ConsenSys)
-```
+```bibtex
 @inproceedings{residualrisk,
  author = {B{\"o}hme, Marcel and Liyanage, Danushka and W{\"u}stholz, Valentin}, 
  title = {Estimating Residual Risk in Greybox Fuzzing},
