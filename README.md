@@ -37,8 +37,8 @@ Given the time constraints of the artifact evaluation process, we do not provide
 * Within the *outputs* directory, you can find the generated plots and graphs.
 * Within the *data* directory, you can find the data from which the plots and graphs are generated.
 
-## Reproducing our Results 
-We need to run the Jupyter notebooks. In the following, we specify the installation procedure for Windows. A similar installation procedure is recommended for other operating systems.
+## Reproducing our Simulation and Empirical Analysis 
+We need to run the Jupyter notebooks. In the following, we specify the installation procedure for Windows. A similar installation procedure is recommended for other operating systems. For more details, please see refer to **INSTALL.md** and **REQUIREMENTS.md**.
 
 * Clone this repository: `git clone https://github.com/Adaptive-Bias/fse21_paper270`
 * Install [R](https://cran.r-project.org/bin/windows/base/) and [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) community version.
@@ -49,7 +49,7 @@ We need to run the Jupyter notebooks. In the following, we specify the installat
 * Find the data for `Empirical.ipynb` in `fse21_paper270/data/fuzzingdata.csv`.
 * If you have problems running the Jupyter notebooks, you can refer to our copies on Kaggle (see below).
 
-Please refer to **INSTALL.md** and **REQUIREMENTS.md** for more details on how to run workbooks locally.
+
 
 ## Kaggle Notebooks
 
