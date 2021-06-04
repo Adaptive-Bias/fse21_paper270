@@ -51,7 +51,7 @@ Please refer to **INSTALL.md** and **REQUIREMENTS.md** for more details on how t
 
 ## Kaggle Notebooks
 
-We have also published both of our workbooks namely *Simulation* and *Empirical* as Kaggle notebooks. The scripts are publically accessible via below links.
+We have also published both of our workbooks namely *Simulation* and *Empirical* as Kaggle notebooks. The scripts are publically accessible via below links:
 
-- https://www.kaggle.com/adaptivebias/simulation.  
-- https://www.kaggle.com/adaptivebias/empirical. 
+- https://www.kaggle.com/adaptivebias/simulation
+- https://www.kaggle.com/adaptivebias/empirical
