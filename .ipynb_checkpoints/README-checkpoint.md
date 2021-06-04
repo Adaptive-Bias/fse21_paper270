@@ -28,10 +28,10 @@ We designed and empirical and a simulation study to validate claims in our paper
 
 Through this repository, we make all the results that are presented in above paper openly accessible and reproducible. We would like researchers and practitioners to adopt the proposed estimators for deciding when to stop an ongoing greybox fuzzing campaign. 
 
-Given the time constraints of the artifact evaluation process, we do not provide instructions for reproducing the experimental results for LibFuzzer; it would take many CPU months to reproduce all results. Instead, we provide the raw data (`fse21_paper270/data/fuzzingdata.csv`) and an R workbook (`Empirical.ipynb`) for processing the data and generating plots and graphs. We provide a patch for LibFuzzer at TODO.
+Given the time constraints of the artifact evaluation process, we do not provide instructions for reproducing the experimental results for LibFuzzer; it would take TODO CPU months to reproduce all results. Instead, we provide the raw data (`fse21_paper270/src/fuzzingdata.csv`) and an R workbook (`Empirical.ipynb`) for processing the data and generating plots and graphs. We provide a patch for LibFuzzer at TODO.
 
 ## Structure of this Repository
-* Within *'workbooks'* directory, you can find two separate R workbooks that allow to reproduce all the results presented in the paper. 
+* Within *'src'* directory, you can find two separate R workbooks that allow to reproduce all the results presented in the paper. 
   * ***Simulation.ipynb -*** This workbook consists of the simulation framework along with respective results obtained through greybox fuzzing simulations. 
   * ***Empirical.ipynb -*** Contains the experimental results, evaluations of estimator performance, and all the plots/graphs presented in the experimental results section of the paper.
 * Within the *'outputs'* directory, you can find the generated plots and graphs.
@@ -44,7 +44,7 @@ We need to run the Jupyter notebooks. In the following, we specify the installat
 * Open Anaconda Navigator and create a new R environment through ‘Environments’ tab.
 * Return back to ‘Home’ and select the created R environment from the drop-down menu under ‘Applications on’.
 * Launch Jupyter and navigate to the the cloned repository. 
-* Edit and run our workbooks in the folder in the folder `fse21_paper270/workbooks`.
-* Find the data for `Empirical.ipynb` in `fse21_paper270/data/fuzzingdata.csv`.
+* Edit and run our workbooks in the folder in the folder `fse21_paper270/src`.
+* Find the data for `Empirical.ipynb` in `fse21_paper270/src/fuzzingdata.csv`.
 
 Please refer to **INSTALL.md** and **REQUIREMENTS.md** for more details on how to run workbooks locally.
