@@ -26,9 +26,7 @@ We show that existing estimators of discovery probability for blackbox fuzzing s
 ## Validating our Claims
 We designed and empirical and a simulation study to validate claims in our paper and the observations of our probabilistic model. The performance of the classical estimators (i.e. Laplace and Goog-Turing) and proposed novel estimators (i.e. Mean-local and a-Reset) of discovery probability were experimentally evaluated based on well-known statistical performance measures, namely ‘bias’ and ‘variance’. For each simulation and experiment, we address randomness as a threat to validity by considering average behaviour of 20+ runs for each study.  
 
-Through this repository, we make all the results that are presented in above paper openly accessible and reproducible. We would like researchers and practitioners to adopt the proposed estimators for deciding when to stop an ongoing greybox fuzzing campaign. 
-
-Given the time constraints of the artifact evaluation process, we do not provide instructions for reproducing the experimental results for LibFuzzer; it would take many CPU months to reproduce all results. Instead, we provide the raw data (`fse21_paper270/data/fuzzingdata.csv`) and an R workbook (`Empirical.ipynb`) for processing the data and generating plots and graphs. We have provided the patch for LibFuzzer within this repository. Use this [link](https://github.com/Adaptive-Bias/fse21_paper270/blob/main/LibFuzzer.diff) to access it.
+Through this repository, we make all the results that are presented in above paper openly accessible and reproducible. We would like researchers and practitioners to adopt the proposed estimators for deciding when to stop an ongoing greybox fuzzing campaign.
 
 ## Structure of this Repository
 * Within *workbooks* directory, you can find two separate R workbooks that allow to reproduce all the results presented in the paper. 
