@@ -31,10 +31,11 @@ Through this repository, we make all the results that are presented in above pap
 Given the time constraints of the artifact evaluation process, we do not provide instructions for reproducing the experimental results for LibFuzzer; it would take many CPU months to reproduce all results. Instead, we provide the raw data (`fse21_paper270/data/fuzzingdata.csv`) and an R workbook (`Empirical.ipynb`) for processing the data and generating plots and graphs. We have provided the patch for LibFuzzer within this repository. Use this [link](https://github.com/Adaptive-Bias/fse21_paper270/blob/main/LibFuzzer.diff) to access it.
 
 ## Structure of this Repository
-* Within *'workbooks'* directory, you can find two separate R workbooks that allow to reproduce all the results presented in the paper. 
+* Within *workbooks* directory, you can find two separate R workbooks that allow to reproduce all the results presented in the paper. 
   * ***Simulation.ipynb -*** This workbook consists of the simulation framework along with respective results obtained through greybox fuzzing simulations. 
   * ***Empirical.ipynb -*** Contains the experimental results, evaluations of estimator performance, and all the plots/graphs presented in the experimental results section of the paper.
-* Within the *'outputs'* directory, you can find the generated plots and graphs.
+* Within the *outputs* directory, you can find the generated plots and graphs.
+* Within the *data* directory, you can find the data from which the plots and graphs are generated.
 
 ## Reproducing our Results 
 We need to run the Jupyter notebooks. In the following, we specify the installation procedure for Windows. A similar installation procedure is recommended for other operating systems.
@@ -46,6 +47,7 @@ We need to run the Jupyter notebooks. In the following, we specify the installat
 * Launch Jupyter and navigate to the the cloned repository. 
 * Edit and run our workbooks in the folder in the folder `fse21_paper270/workbooks`.
 * Find the data for `Empirical.ipynb` in `fse21_paper270/data/fuzzingdata.csv`.
+* If you have problems running the Jupyter notebooks, you can refer to our copies on Kaggle (see below).
 
 Please refer to **INSTALL.md** and **REQUIREMENTS.md** for more details on how to run workbooks locally.
 
