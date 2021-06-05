@@ -47,7 +47,25 @@ We need to run the Jupyter notebooks. In the following, we specify the installat
 * Find the data for `Empirical.ipynb` in `fse21_paper270/data/fuzzingdata.csv`.
 * If you have problems running the Jupyter notebooks, you can refer to our copies on Kaggle (see below).
 
+## Generating Fuzzing Data for Empirical Analysis
+We perform our experiments in **Libfuzzer**. We chose six subjects from the fuzzing benchmarking platform, Fuzzbench. The resulting csv data file from this experiment is used as the input data file for generating our emprirical results through ***Empirical.ipynb***. Refer *data* directory for accessing the generated  experimental data. We provide the *diff* for LibFuzzer along with the execution instructions for reproducing our experimental data.
 
+The diff can be found at https://raw.githubusercontent.com/Adaptive-Bias/fse21_paper270/main/data/fuzzbench.diff
+
+Assume that we choose the subject ```freetype2-2017``` and the trial number ```1```. Successful execution of following commands will produce the csv named ```freetype2-2017.1.csv```. Make sure that the experiment has to be continued for a longer period (until fuzzer generates more than *10^9* test inputs) with more trials to generate same results for the selected set of subjects.
+
+```
+git clone https://github.com/google/fuzzbench
+cd fuzzbench
+git checkout 7b92df520aa9794fc483441e90db1c725859e5a3
+git submodule update --init
+git apply --ignore-whitespace fuzzbench.diff 
+sudo apt-get install build-essential
+sudo apt-get install python3-dev python3-venv
+make install-dependencies
+source .venv/bin/activate
+sudo make run-entropic-freetype2-2017 > freetype2-2017.1.csv
+```
 
 ## Kaggle Notebooks
 
