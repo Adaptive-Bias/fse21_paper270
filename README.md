@@ -59,12 +59,18 @@ git clone https://github.com/google/fuzzbench
 cd fuzzbench
 git checkout 7b92df520aa9794fc483441e90db1c725859e5a3
 git submodule update --init
-git apply --ignore-whitespace fuzzbench.diff 
+git apply --ignore-whitespace fuzzbench.diff # Adds the diff to the code
 sudo apt-get install build-essential
 sudo apt-get install python3-dev python3-venv
 make install-dependencies
+
 source .venv/bin/activate
 sudo make run-entropic-freetype2-2017 > freetype2-2017.1.csv
+```
+To see the progress of the campaign, run the below command in a seperate terminal.
+
+```
+tail -f freetype2-2017.1.csv
 ```
 
 ## Kaggle Notebooks
